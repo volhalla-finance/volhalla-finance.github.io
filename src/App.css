@@ -1,9 +1,70 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+}
 .App {
   text-align: center;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.nav {
+  background-color: #6457FF;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: 74px;
+}
+.nav .logo-name {
+  font-family: 'Work Sans';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 12px;
+}
+.nav .right-links {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav .right-links .item {
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.nav .right-links .item a {
+  color: white;
+  text-decoration: none;
+}
+.nav .logo-container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.nav .logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.splash {
+  background: #6457FF;
+  background: linear-gradient(180deg, #6457FF 51.89%, rgba(97, 91, 255, 0.263306) 87.58%, rgba(102, 100, 255, 0) 100%);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 28px;
+}
+.splash .module {
+  background: #3A00CA;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
 }
 .App-header {
   background-color: #282c34;
