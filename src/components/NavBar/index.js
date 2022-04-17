@@ -5,7 +5,7 @@ import logo from './../../logo-180.png';
  */
 class NavBar extends React.Component {
   render() {
-    const logoContainer = <div class="nav logo-container">
+    const logoContainer = <div className="logo-container">
       <img src={logo} className="logo" alt="logo" />
       <div className="logo-name">Volhalla</div>
     </div>;

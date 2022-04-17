@@ -1,34 +1,52 @@
 @font-face {
-  font-family: 'Work Sans';
+  font-family: WorkSans;
   src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
  }
-
-.App {
-  text-align: center;
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("./fonts/brandon-grotesque-black.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: BrandonGrotesque;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.logo-name {
+  font-family: WorkSans;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 12px;
+}
+.logo-container {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  flex-direction: row;
+  color: white;
+}
+
+.logo {
+  max-height: 100%;
 }
 
 .nav {
   background-color: #6457FF;
   display: flex;
   flex-direction: row;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
   max-height: 74px;
-  .logo-name {
-    font-family: 'Work Sans';
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 28px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 12px;
-  }
+  padding-left: 50px;
+  padding-right: 50px;
+
   .right-links {
     margin-left:auto;
     display: flex;
@@ -36,25 +54,19 @@
     margin-top:auto;
     margin-bottom: auto;
     .item {
-      margin-left: 20px;
+      margin-left: 16px;
       justify-content: center;
       align-items: center;
       color: white;
-      font-size: 20px;
+      font-size: 14px;
+      font-weight: 500;
       a {
         color: white;
         text-decoration: none;
       }
     }
   }
-  .logo-container {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  .logo {
-    max-width: 100%;
-    max-height: 100%;
-  }
+
 }
 
 .splash {
@@ -71,32 +83,118 @@
   }
 }
 
+.intro {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0 74px 0 74px;
+  .cta-container {
+    margin-right: 20px;
+  }
+}
+
+
+.start-earning {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px 0 50px;
+  
+  img {
+    margin: 50px;
+  }
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+}
+.button-container {
+  display: flex;
+  margin-top: 20px;
+  .button {
+    display: block;
+    text-transform: uppercase;
+    background: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    align-items: flex-start;
+    text-align: center;
+    font-weight: 500;
+    flex-grow: 0;
+  }
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  background: #918F8F;
+  .logo-container {
+    padding: 0 50px 0 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .logo {
+    height: 64px;
+  }
+  .item {
+    color: white;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom:auto;
+  }
+  .item + .item {
+    margin-left: 50px;    
+  }
+  .socials{
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+
+    .item {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .item + .item {
+      margin-left: 20px;
+    }
+  }
+}
+
+
 // @media (prefers-reduced-motion: no-preference) {
 //   .App-logo {
 //     animation: App-logo-spin infinite 20s linear;
 //   }
 // }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
 
-.App-link {
-  color: #61dafb;
-}
+// .App-link {
+//   color: #61dafb;
+// }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }

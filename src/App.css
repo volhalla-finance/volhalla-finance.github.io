@@ -1,31 +1,46 @@
 @font-face {
-  font-family: 'Work Sans';
+  font-family: WorkSans;
   src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 }
-.App {
-  text-align: center;
+@font-face {
+  font-family: BrandonGrotesque;
+  src: url("./fonts/brandon-grotesque-black.otf") format("opentype");
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: BrandonGrotesque;
+  font-size: 32px;
+  font-weight: 200;
+}
+body {
+  font-size: 18px;
+  font-weight: 200;
+}
+.logo-name {
+  font-family: WorkSans;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 12px;
+}
+.logo-container {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  flex-direction: row;
+  color: white;
+}
+.logo {
+  max-height: 100%;
 }
 .nav {
   background-color: #6457FF;
   display: flex;
   flex-direction: row;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
   max-height: 74px;
-}
-.nav .logo-name {
-  font-family: 'Work Sans';
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 28px;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .nav .right-links {
   margin-left: auto;
@@ -35,23 +50,16 @@
   margin-bottom: auto;
 }
 .nav .right-links .item {
-  margin-left: 20px;
+  margin-left: 16px;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
 }
 .nav .right-links .item a {
   color: white;
   text-decoration: none;
-}
-.nav .logo-container {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.nav .logo {
-  max-width: 100%;
-  max-height: 100%;
 }
 .splash {
   background: #6457FF;
@@ -66,24 +74,80 @@
   width: 100%;
   height: auto;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.intro {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0 74px 0 74px;
+}
+.intro .cta-container {
+  margin-right: 20px;
+}
+.start-earning {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px 0 50px;
+}
+.start-earning img {
+  margin: 50px;
+}
+.start-earning .cta-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+}
+.button-container {
+  display: flex;
+  margin-top: 20px;
+}
+.button-container .button {
+  display: block;
+  text-transform: uppercase;
+  background: black;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  align-items: flex-start;
+  text-align: center;
+  font-weight: 500;
+  flex-grow: 0;
 }
-.App-link {
-  color: #61dafb;
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  background: #918F8F;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .logo-container {
+  padding: 0 50px 0 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer .logo {
+  height: 64px;
+}
+.footer .item {
+  color: white;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer .item + .item {
+  margin-left: 50px;
+}
+.footer .socials {
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+}
+.footer .socials .item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.footer .socials .item + .item {
+  margin-left: 20px;
 }
