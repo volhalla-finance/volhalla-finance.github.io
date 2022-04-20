@@ -1,20 +1,22 @@
 import React from 'react';
 /*
- * Volatile  section
- */
+* Volatile  section
+*/
 class Volatile extends React.Component {
   render() {
     let title = "Crypto markets are volatile. Use that to your advantage with Volhalla";
     let subtitle = "Volhalla has strategies for everyone whether you are generating yield through options or diversifying your crypto portfolio";
     return <div className="intro">
+      <div className="section-container padded">
         <div className="cta-container">
-            <h2>{title}</h2>
-            <body>{subtitle}</body>
-            <div className="button-container">
-                <div className="button">Start Earning</div>
-            </div>
+          <h2>{title}</h2>
+          <body>{subtitle}</body>
+          <div className="button-container">
+            <div className="button">Start Earning</div>
+          </div>
         </div>
-        <img src="http://placehold.jp/400x300.png"></img>
+        <img src="http://placehold.jp/400x400.png"></img>
+      </div>
     </div>;
   }
 }

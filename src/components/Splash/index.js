@@ -5,8 +5,10 @@ import placeholder from './../../placeholder.png';
  */
 class Splash extends React.Component {
   render() {
-    return <div className="splash">
-        <img src={placeholder} alt="Splash" className='module'/>
+    return <div className="splash padded">
+        <div className="section-container">
+            <img src={placeholder} alt="Splash" className='module' />
+        </div>
     </div>;
   }
 }

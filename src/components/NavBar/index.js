@@ -14,7 +14,7 @@ class NavBar extends React.Component {
       <div className="item"><a href="/" >Community</a></div>
       <div className="item"><a href="/" >Launch App</a></div>
     </div>
-    return <div class="nav">
+    return <div class="nav padded">
       {logoContainer}
       {navLinks}
     </div>;

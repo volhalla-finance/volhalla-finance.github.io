@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 @font-face {
   font-family: WorkSans;
   src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
@@ -11,9 +12,21 @@ h2 {
   font-size: 32px;
   font-weight: 200;
 }
-body {
+html body {
   font-size: 18px;
   font-weight: 200;
+  width: auto;
+  height: auto;
+}
+.section-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  min-width: 960px;
+}
+.padded {
+  padding: 0 50px 0 50px;
 }
 .logo-name {
   font-family: WorkSans;
@@ -39,8 +52,6 @@ body {
   display: flex;
   flex-direction: row;
   max-height: 74px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .nav .right-links {
   margin-left: auto;
@@ -64,8 +75,6 @@ body {
 .splash {
   background: #6457FF;
   background: linear-gradient(180deg, #6457FF 51.89%, rgba(97, 91, 255, 0.263306) 87.58%, rgba(102, 100, 255, 0) 100%);
-  padding-left: 50px;
-  padding-right: 50px;
   padding-bottom: 28px;
 }
 .splash .module {
@@ -78,10 +87,31 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-  margin: 0 74px 0 74px;
+  margin-bottom: 30px;
 }
 .intro .cta-container {
   margin-right: 20px;
+}
+.strategies {
+  display: flex;
+  background: #918F8F;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.strategies .section-container {
+  flex-direction: column;
+}
+.strategies h2 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.strategies .asset-container {
+  margin: 0 auto 0 auto;
+}
+.strategies img + img {
+  margin-left: 20px;
 }
 .start-earning {
   background: white;
@@ -115,6 +145,52 @@ body {
   text-align: center;
   font-weight: 500;
   flex-grow: 0;
+}
+.team {
+  background: #353535;
+  color: white;
+  padding-bottom: 34px;
+  padding: 20px 300px 34px 300px;
+  min-height: 300px;
+}
+.team body {
+  color: inherit;
+  background: inherit;
+}
+.team h2 {
+  color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team .button-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.team .button-container .button {
+  background: white;
+  color: black;
+}
+.team .section-container {
+  flex-direction: column;
+}
+.questions {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.questions h2 {
+  width: 30%;
+}
+.questions .collapse {
+  width: 70%;
+  flex-grow: 1;
+}
+.questions .collapse .ant-collapse-item {
+  background-color: white;
+  font-weight: 400;
+}
+.questions .collapse .ant-collapse-header {
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 .footer {
   display: flex;
