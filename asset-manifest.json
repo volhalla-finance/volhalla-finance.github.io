@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a021eab8.css",
+    "main.js": "/static/js/main.a397c047.js",
+    "static/js/787.6c8a0e01.chunk.js": "/static/js/787.6c8a0e01.chunk.js",
+    "static/media/placeholder.png": "/static/media/placeholder.c4b31602274d975fc67b.png",
+    "static/media/brandon-grotesque-black.otf": "/static/media/brandon-grotesque-black.9ad36c335e917b52911d.otf",
+    "static/media/volhalla-logo.svg": "/static/media/volhalla-logo.b0e32dfeeb58fb4638ec8d31e80373e7.svg",
+    "index.html": "/index.html",
+    "main.a021eab8.css.map": "/static/css/main.a021eab8.css.map",
+    "main.a397c047.js.map": "/static/js/main.a397c047.js.map",
+    "787.6c8a0e01.chunk.js.map": "/static/js/787.6c8a0e01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a021eab8.css",
+    "static/js/main.a397c047.js"
+  ]
+}
