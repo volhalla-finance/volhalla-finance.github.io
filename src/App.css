@@ -1,16 +1,38 @@
 @import '~antd/dist/antd.css';
 @font-face {
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 }
 @font-face {
   font-family: BrandonGrotesque;
   src: url("./fonts/brandon-grotesque-black.otf") format("opentype");
 }
+h1 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: -0.03em;
+  color: black;
+}
 h2 {
   font-family: BrandonGrotesque;
   font-size: 32px;
   font-weight: 200;
+  text-align: center;
+}
+h3 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  color: black;
+}
+.divider {
+  width: 100%;
 }
 html body {
   font-size: 18px;
@@ -78,7 +100,6 @@ html body {
   padding-bottom: 28px;
 }
 .splash .module {
-  background: #3A00CA;
   border-radius: 30px;
   width: 100%;
   height: auto;
@@ -86,29 +107,35 @@ html body {
 .intro {
   background: white;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
+  flex-direction: column;
+  padding-top: 54px;
+}
+.intro .section-container {
+  padding-left: 90px;
 }
 .intro .cta-container {
   margin-right: 20px;
 }
+.intro .asset {
+  max-width: 50%;
+  margin-right: -40px;
+}
 .strategies {
   display: flex;
-  background: #918F8F;
-  flex-direction: row;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  background: #24098F;
+  flex-direction: column;
+  margin-top: -8vw;
+}
+.strategies h3 {
+  text-align: center;
+  margin-bottom: 0;
+  color: white;
 }
 .strategies .section-container {
   flex-direction: column;
 }
-.strategies h2 {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
 .strategies .asset-container {
-  margin: 0 auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 .strategies img + img {
   margin-left: 20px;
@@ -116,7 +143,7 @@ html body {
 .start-earning {
   background: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 50px 0 50px;
 }
 .start-earning img {
@@ -125,7 +152,11 @@ html body {
 .start-earning .cta-container {
   display: flex;
   flex-direction: column;
+  padding-left: 50px;
   margin: auto;
+}
+.start-earning .asset2 {
+  max-width: 40%;
 }
 .button-container {
   display: flex;
@@ -150,7 +181,7 @@ html body {
   background: #353535;
   color: white;
   padding-bottom: 34px;
-  padding: 20px 300px 34px 300px;
+  padding: 20px 50px 34px 50px;
   min-height: 300px;
 }
 .team body {
@@ -176,6 +207,10 @@ html body {
 .questions {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.questions .section-container {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .questions h2 {
   width: 30%;

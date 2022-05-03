@@ -1,4 +1,6 @@
 import React from 'react';
+import section1 from './../../section1.svg';
+import divider1 from './../../divider1.svg';
 /*
 * Volatile  section
 */
@@ -9,14 +11,15 @@ class Volatile extends React.Component {
     return <div className="intro">
       <div className="section-container padded">
         <div className="cta-container">
-          <h2>{title}</h2>
+          <h1>{title}</h1>
           <body>{subtitle}</body>
           <div className="button-container">
             <div className="button">Start Earning</div>
           </div>
         </div>
-        <img src="http://placehold.jp/400x400.png"></img>
+        <img src={section1} className="asset" />
       </div>
+      <img src={divider1} className="divider"></img>
     </div>;
   }
 }

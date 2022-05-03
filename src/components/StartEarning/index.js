@@ -1,4 +1,6 @@
 import React from 'react';
+import section3 from './../../section3.svg';
+import section3_2 from './../../section3-2.svg';
 /*
 * Start earning  section
 */
@@ -8,13 +10,22 @@ class StartEarning extends React.Component {
 
     return <div className="start-earning">
       <div className='section-container padded'>
-        <img src="http://placehold.jp/400x300.png"></img>
+        <img src={section3}></img>
         <div className="cta-container">
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <div className="button-container">
             <div className="button">Start Earning</div>
           </div>
         </div>
+      </div>
+      <div className="section-container padded">
+        <div className="cta-container">
+          <h3>{title}</h3>
+          <div className="button-container">
+            <div className="button">Start Earning</div>
+          </div>
+        </div>
+        <img src={section3_2} className="asset2"></img>
       </div>
     </div>;
   }
