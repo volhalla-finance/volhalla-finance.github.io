@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a021eab8.css",
-    "main.js": "/static/js/main.a397c047.js",
+    "main.css": "/static/css/main.8a28dd25.css",
+    "main.js": "/static/js/main.1a680cac.js",
     "static/js/787.6c8a0e01.chunk.js": "/static/js/787.6c8a0e01.chunk.js",
-    "static/media/placeholder.png": "/static/media/placeholder.c4b31602274d975fc67b.png",
+    "static/media/splash.svg": "/static/media/splash.b86ce8da92d07fc5efd783f92f2c365c.svg",
+    "static/media/section2.svg": "/static/media/section2.ec17880aaa7bc9af3ec4dc36b417bc1a.svg",
+    "static/media/section1.svg": "/static/media/section1.8260302666da2abc3668d3ed0493eb13.svg",
+    "static/media/section3-2.svg": "/static/media/section3-2.6e1671454175fdfaca4c17cb2fbe509d.svg",
+    "static/media/divider2.svg": "/static/media/divider2.5a4bc0f2b2406737a6000dc7e086d6d3.svg",
+    "static/media/section3.svg": "/static/media/section3.8bcc9f1b33daccbd1a200287c0960c32.svg",
     "static/media/brandon-grotesque-black.otf": "/static/media/brandon-grotesque-black.9ad36c335e917b52911d.otf",
+    "static/media/divider1.svg": "/static/media/divider1.dd750f46b8931a9998ba69f2b35704aa.svg",
     "static/media/volhalla-logo.svg": "/static/media/volhalla-logo.b0e32dfeeb58fb4638ec8d31e80373e7.svg",
     "index.html": "/index.html",
-    "main.a021eab8.css.map": "/static/css/main.a021eab8.css.map",
-    "main.a397c047.js.map": "/static/js/main.a397c047.js.map",
+    "main.8a28dd25.css.map": "/static/css/main.8a28dd25.css.map",
+    "main.1a680cac.js.map": "/static/js/main.1a680cac.js.map",
     "787.6c8a0e01.chunk.js.map": "/static/js/787.6c8a0e01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a021eab8.css",
-    "static/js/main.a397c047.js"
+    "static/css/main.8a28dd25.css",
+    "static/js/main.1a680cac.js"
   ]
 }
