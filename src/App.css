@@ -1,33 +1,30 @@
 @import '~antd/dist/antd.css';
 @font-face {
-  font-family: 'Work Sans';
-  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-}
-@font-face {
-  font-family: BrandonGrotesque;
-  src: url("./fonts/brandon-grotesque-black.otf") format("opentype");
+  font-family: BrandonText;
+  src: url("./fonts/BrandonText-Bold.otf") format("opentype");
 }
 h1 {
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 68px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
   letter-spacing: -0.03em;
   color: black;
 }
 h2 {
-  font-family: BrandonGrotesque;
-  font-size: 32px;
+  font-family: BrandonText;
+  font-weight: 700;
+  font-size: 24px;
   font-weight: 200;
   text-align: center;
 }
 h3 {
-  font-family: 'Work Sans';
+  font-family: Work Sans;
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 28px;
+  line-height: 40px;
   letter-spacing: -0.03em;
   color: black;
 }
@@ -35,7 +32,7 @@ h3 {
   width: 100%;
 }
 html body {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   width: auto;
   height: auto;
@@ -120,11 +117,14 @@ html body {
   max-width: 50%;
   margin-right: -40px;
 }
+.intro .button-container {
+  margin-top: 36px;
+}
 .strategies {
   display: flex;
   background: #24098F;
   flex-direction: column;
-  margin-top: -8vw;
+  padding-top: 36px;
 }
 .strategies h3 {
   text-align: center;
@@ -134,8 +134,31 @@ html body {
 .strategies .section-container {
   flex-direction: column;
 }
+.strategies .strategy-overview {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+.strategies .strategy-overview .strategy {
+  background: #2B008D;
+  border: 1px solid rgba(101, 87, 255, 0.3);
+  box-shadow: 0px 4px 30px 3px rgba(149, 172, 255, 0.2);
+  border-radius: 30px;
+  padding-bottom: 10%;
+}
+.strategies .strategy-overview .strategy + .strategy {
+  margin-left: 5%;
+}
 .strategies .asset-container {
-  margin: 50px auto 0 auto;
+  display: inline-block;
+  object-fit: contain;
+  padding: 20% 20% 0 20%;
+}
+.strategies .asset-container img {
+  height: 100%;
+  width: 100%;
 }
 .strategies img + img {
   margin-left: 20px;
@@ -144,7 +167,6 @@ html body {
   background: white;
   display: flex;
   flex-direction: column;
-  margin: 0 50px 0 50px;
 }
 .start-earning img {
   margin: 50px;
@@ -158,57 +180,54 @@ html body {
 .start-earning .asset2 {
   max-width: 40%;
 }
+.start-earning .divider {
+  margin: 0;
+}
 .button-container {
   display: flex;
   margin-top: 20px;
 }
 .button-container .button {
-  display: block;
-  text-transform: uppercase;
-  background: black;
+  display: flex;
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-decoration: none;
   font-size: 16px;
-  border-radius: 12px;
-  align-items: flex-start;
-  text-align: center;
+  border-radius: 10px;
   font-weight: 500;
-  flex-grow: 0;
+  padding: 8px 24px;
+  height: auto;
+  background: linear-gradient(90deg, #2037FF 0%, #6658FF 100%);
 }
 .team {
-  background: #353535;
+  background: #24098F;
   color: white;
   padding-bottom: 34px;
-  padding: 20px 50px 34px 50px;
   min-height: 300px;
 }
 .team body {
   color: inherit;
   background: inherit;
+  font-size: 18px;
+  font-weight: 200;
 }
-.team h2 {
+.team h1 {
   color: inherit;
-  margin-left: auto;
-  margin-right: auto;
-}
-.team .button-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-.team .button-container .button {
-  background: white;
-  color: black;
 }
 .team .section-container {
+  display: flex;
+  flex-direction: row;
+}
+.team .container {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
   flex-direction: column;
 }
 .questions {
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 .questions .section-container {
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }

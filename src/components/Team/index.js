@@ -1,4 +1,5 @@
 import React from 'react';
+import viking from './viking.svg';
 /*
 * Team section
 */
@@ -12,13 +13,19 @@ class Team extends React.Component {
     let subtitle2 = `Reach out if you’re interested in what we’re building!`;
     return <div className="team">
       <div className="section-container padded">
-        <h2>{title}</h2>
-        <body>{subtitle}</body>
-        <br/>
-        <body>{subtitle2}</body>
-        <div className="button-container">
-          <div className="button">Contact Us</div>
+        <div>
+          <img src={viking}/>
         </div>
+        <div class="container"> 
+          <h1>{title}</h1>
+          <body>{subtitle}</body>
+          <br/>
+          <body>{subtitle2}</body>
+          <div className="button-container">
+            <div className="button">Contact Us</div>
+          </div>
+        </div>
+       
       </div>
     </div>;
   }

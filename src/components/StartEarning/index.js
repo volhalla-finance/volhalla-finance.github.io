@@ -1,6 +1,8 @@
 import React from 'react';
 import section3 from './../../section3.svg';
 import section3_2 from './../../section3-2.svg';
+import dividerBottom from './divider-bottom.svg';
+import { Button } from 'antd';
 /*
 * Start earning  section
 */
@@ -22,11 +24,14 @@ class StartEarning extends React.Component {
         <div className="cta-container">
           <h3>{title}</h3>
           <div className="button-container">
-            <div className="button">Start Earning</div>
+            <Button className="button" type="primary" size={24}>
+              Open Analytics
+            </Button>
           </div>
         </div>
         <img src={section3_2} className="asset2"></img>
       </div>
+      <img src={dividerBottom} className="divider"></img>
     </div>;
   }
 }

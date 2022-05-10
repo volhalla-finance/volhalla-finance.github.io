@@ -1,6 +1,7 @@
 import React from 'react';
 import section1 from './../../section1.svg';
 import divider1 from './../../divider1.svg';
+import { Button } from 'antd';
 /*
 * Volatile  section
 */
@@ -14,7 +15,9 @@ class Volatile extends React.Component {
           <h1>{title}</h1>
           <body>{subtitle}</body>
           <div className="button-container">
-            <div className="button">Start Earning</div>
+            <Button className="button" type="primary">
+              Start Earning
+            </Button>
           </div>
         </div>
         <img src={section1} className="asset" />

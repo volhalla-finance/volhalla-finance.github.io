@@ -1,5 +1,6 @@
 import React from 'react';
 import { Collapse } from 'antd';
+import dividerTop from './divider-top.svg';
 const { Panel } = Collapse;
 /*
 * Q&A  section
@@ -13,6 +14,7 @@ class Questions extends React.Component {
       </p>
     );
     return <div className="questions">
+      <img src={dividerTop} className="divider"></img>
       <div className="section-container padded">
         <h2>{title}</h2>
         <div className="collapse">
