@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a28dd25.css",
-    "main.js": "/static/js/main.1a680cac.js",
+    "main.css": "/static/css/main.5ac3d8e6.css",
+    "main.js": "/static/js/main.11852d6b.js",
     "static/js/787.6c8a0e01.chunk.js": "/static/js/787.6c8a0e01.chunk.js",
-    "static/media/splash.svg": "/static/media/splash.b86ce8da92d07fc5efd783f92f2c365c.svg",
+    "static/media/hero.svg": "/static/media/hero.19c8a22025c37117faece66a943744ce.svg",
     "static/media/section2.svg": "/static/media/section2.ec17880aaa7bc9af3ec4dc36b417bc1a.svg",
     "static/media/section1.svg": "/static/media/section1.8260302666da2abc3668d3ed0493eb13.svg",
+    "static/media/viking.svg": "/static/media/viking.ed1881c6f0383995f75f4d4385f60838.svg",
     "static/media/section3-2.svg": "/static/media/section3-2.6e1671454175fdfaca4c17cb2fbe509d.svg",
-    "static/media/divider2.svg": "/static/media/divider2.5a4bc0f2b2406737a6000dc7e086d6d3.svg",
+    "static/media/asset-bespoke.jpg": "/static/media/asset-bespoke.88763a1bfd89ccc58444.jpg",
+    "static/media/asset-standard.jpg": "/static/media/asset-standard.9cc1414370ebb31d9905.jpg",
     "static/media/section3.svg": "/static/media/section3.8bcc9f1b33daccbd1a200287c0960c32.svg",
-    "static/media/brandon-grotesque-black.otf": "/static/media/brandon-grotesque-black.9ad36c335e917b52911d.otf",
-    "static/media/divider1.svg": "/static/media/divider1.dd750f46b8931a9998ba69f2b35704aa.svg",
+    "static/media/BrandonText-Bold.otf": "/static/media/BrandonText-Bold.db5fce6eca3a6acc86c1.otf",
+    "static/media/divider1.svg": "/static/media/divider1.c86ce3d9bc5f64b18ad2e38edf020120.svg",
+    "static/media/divider-bottom.svg": "/static/media/divider-bottom.608ac993efbffe844dfc1cfe0c53b2dd.svg",
     "static/media/volhalla-logo.svg": "/static/media/volhalla-logo.b0e32dfeeb58fb4638ec8d31e80373e7.svg",
+    "static/media/divider-top.svg": "/static/media/divider-top.918c5dd2e01645398eec64055d9a8e86.svg",
+    "static/media/divider2.svg": "/static/media/divider2.d6da69e22a91b80f2119eb15a97523f4.svg",
     "index.html": "/index.html",
-    "main.8a28dd25.css.map": "/static/css/main.8a28dd25.css.map",
-    "main.1a680cac.js.map": "/static/js/main.1a680cac.js.map",
+    "main.5ac3d8e6.css.map": "/static/css/main.5ac3d8e6.css.map",
+    "main.11852d6b.js.map": "/static/js/main.11852d6b.js.map",
     "787.6c8a0e01.chunk.js.map": "/static/js/787.6c8a0e01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a28dd25.css",
-    "static/js/main.1a680cac.js"
+    "static/css/main.5ac3d8e6.css",
+    "static/js/main.11852d6b.js"
   ]
 }
