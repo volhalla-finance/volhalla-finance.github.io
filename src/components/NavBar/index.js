@@ -12,7 +12,7 @@ class NavBar extends React.Component {
     const navLinks = <div className="right-links">
       <div className="item"><a href="/" >Docs</a></div>
       <div className="item"><a href="/" >Community</a></div>
-      <div className="item"><a href="/" >Launch App</a></div>
+      <div className="item launch"><a href="/" >Launch App</a></div>
     </div>
     return <div class="nav padded">
       {logoContainer}

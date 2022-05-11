@@ -3,6 +3,10 @@
   font-family: BrandonText;
   src: url("./fonts/BrandonText-Bold.otf") format("opentype");
 }
+@font-face {
+  font-family: BrandonTextRegular;
+  src: url("./fonts/BrandonText-Regular.otf") format("opentype");
+}
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -48,7 +52,7 @@ html body {
   padding: 0 50px 0 50px;
 }
 .logo-name {
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
@@ -86,10 +90,16 @@ html body {
   color: white;
   font-size: 14px;
   font-weight: 500;
+  padding: 4px 20px 4px 20px;
 }
 .nav .right-links .item a {
   color: white;
   text-decoration: none;
+}
+.nav .launch {
+  background: #24098F;
+  box-shadow: 2px 4px 10px rgba(36, 9, 143, 0.4);
+  border-radius: 2px;
 }
 .splash {
   background: #6457FF;
@@ -146,7 +156,10 @@ html body {
   border: 1px solid rgba(101, 87, 255, 0.3);
   box-shadow: 0px 4px 30px 3px rgba(149, 172, 255, 0.2);
   border-radius: 30px;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
+}
+.strategies .strategy-overview .strategy h3 {
+  font-size: 24px;
 }
 .strategies .strategy-overview .strategy + .strategy {
   margin-left: 5%;
@@ -154,7 +167,7 @@ html body {
 .strategies .asset-container {
   display: inline-block;
   object-fit: contain;
-  padding: 20% 20% 0 20%;
+  padding: 18% 20% 0 20%;
 }
 .strategies .asset-container img {
   height: 100%;
@@ -168,8 +181,13 @@ html body {
   display: flex;
   flex-direction: column;
 }
-.start-earning img {
-  margin: 50px;
+.start-earning .carousel {
+  width: 290px;
+  margin-left: 80px;
+  margin-right: 24px;
+}
+.start-earning h3 {
+  padding-right: 80px;
 }
 .start-earning .cta-container {
   display: flex;
@@ -183,6 +201,9 @@ html body {
 .start-earning .divider {
   margin: 0;
 }
+.start-earning .section-container + .section-container {
+  margin-top: 80px;
+}
 .button-container {
   display: flex;
   margin-top: 20px;
@@ -191,7 +212,7 @@ html body {
   display: flex;
   border: none;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 10px;
   font-weight: 500;
   padding: 8px 24px;
@@ -209,9 +230,13 @@ html body {
   background: inherit;
   font-size: 18px;
   font-weight: 200;
+  padding-right: 60px;
 }
 .team h1 {
   color: inherit;
+}
+.team img {
+  height: 500px;
 }
 .team .section-container {
   display: flex;
@@ -232,7 +257,10 @@ html body {
   padding-right: 50px;
 }
 .questions h2 {
-  width: 30%;
+  font-family: 'Work Sans';
+  font-weight: 700;
+  width: 40%;
+  font-size: 30px;
 }
 .questions .collapse {
   width: 70%;
@@ -240,17 +268,19 @@ html body {
 }
 .questions .collapse .ant-collapse-item {
   background-color: white;
-  font-weight: 400;
+  font-weight: 700;
 }
 .questions .collapse .ant-collapse-header {
   flex-direction: row-reverse;
   justify-content: space-between;
+  color: #3706FA;
 }
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 140px;
-  background: #918F8F;
+  background: #24098F;
+  padding-top: 30px;
 }
 .footer .logo-container {
   padding: 0 50px 0 50px;
@@ -260,11 +290,22 @@ html body {
 .footer .logo {
   height: 64px;
 }
+.footer .copyright {
+  color: white;
+  padding: 0 50px 0 50px;
+  font-size: 14px;
+}
 .footer .item {
   color: white;
   font-size: 14px;
+  font-family: BrandonTextRegular;
   margin-top: auto;
   margin-bottom: auto;
+}
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .footer .item + .item {
   margin-left: 50px;

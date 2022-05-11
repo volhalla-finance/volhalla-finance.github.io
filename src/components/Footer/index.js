@@ -16,10 +16,17 @@ class Footer extends React.Component {
       <div className='item'><FaTwitter size={20} /></div>
     </div>
     return <div className="footer">
-      {logoContainer}
-      <div className="item">Docs</div>
-      <div className="item">App</div>
-      {socials}
+      <div className="row">      
+        {logoContainer}
+        <a className="item">Docs</a>
+        <a className="item">App</a>
+        {socials}
+      </div>
+      <div className='row'>
+        <span className='copyright'>&#169; 2022 Volhalla</span>
+      </div>
+
+
     </div>;
   }
 }

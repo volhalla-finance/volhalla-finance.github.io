@@ -1,5 +1,6 @@
 import React from 'react';
 import viking from './viking.svg';
+import { Button } from 'antd';
 /*
 * Team section
 */
@@ -22,7 +23,9 @@ class Team extends React.Component {
           <br/>
           <body>{subtitle2}</body>
           <div className="button-container">
-            <div className="button">Contact Us</div>
+            <Button className="button" type="primary" size={24}>
+              Contact Us
+            </Button>
           </div>
         </div>
        
