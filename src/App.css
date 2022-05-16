@@ -152,26 +152,63 @@ html body {
   max-width: 800px;
 }
 .strategies .strategy-overview .strategy {
+  display: flex;
+  flex-direction: column;
   background: #2B008D;
   border: 1px solid rgba(101, 87, 255, 0.3);
   box-shadow: 0px 4px 30px 3px rgba(149, 172, 255, 0.2);
   border-radius: 30px;
-  padding-bottom: 8%;
+  padding-bottom: 30px;
+  width: 360px;
+  height: 440px;
+}
+.strategies .strategy-overview .strategy:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.strategies .strategy-overview .strategy.back {
+  background: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: screen;
+  backdrop-filter: blur(50px);
+  border-radius: 30px;
+  height: 100%;
+}
+.strategies .strategy-overview .strategy.back .card-container {
+  padding: 40px;
+}
+.strategies .strategy-overview .strategy.back h3 {
+  color: #6658FF;
+  padding-top: 20px;
+}
+.strategies .strategy-overview .strategy.back body {
+  background-color: inherit;
+  margin-top: 40px;
+  color: #24098F;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.strategies .strategy-overview .strategy.back .button {
+  margin: auto;
 }
 .strategies .strategy-overview .strategy h3 {
   font-size: 24px;
 }
-.strategies .strategy-overview .strategy + .strategy {
+.strategies .strategy-overview .react-card-flip + .react-card-flip {
   margin-left: 5%;
 }
 .strategies .asset-container {
-  display: inline-block;
-  object-fit: contain;
-  padding: 18% 20% 0 20%;
+  display: flex;
+  padding: 40px 0 20px 0;
 }
 .strategies .asset-container img {
-  height: 100%;
-  width: 100%;
+  margin: auto;
+  height: 300px;
+  width: 260px;
 }
 .strategies img + img {
   margin-left: 20px;

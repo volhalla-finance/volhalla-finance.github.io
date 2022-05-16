@@ -28,10 +28,10 @@ class Questions extends React.Component {
         <Panel header="How do I know my funds are safe?" key="3">
           {text}
         </Panel>
-        <Panel header="Who is Volhalla partnered with?" key="1">
+        <Panel header="Who is Volhalla partnered with?" key="4">
           {text}
         </Panel>
-        <Panel header="Where can I learn more?" key="2">
+        <Panel header="Where can I learn more?" key="5">
           {text}
         </Panel>
       </Collapse>
