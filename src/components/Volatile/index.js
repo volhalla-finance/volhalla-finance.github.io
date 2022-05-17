@@ -23,7 +23,7 @@ class Volatile extends React.Component {
           </div>
         </div>
         <div className="asset">
-          <video autoplay="autoplay" playsinline alt="asset">
+          <video autoplay="autoplay" loop muted playsinline alt="asset">
             <source src={volatileVideo} type="video/mp4"/>
           </video>
         </div>

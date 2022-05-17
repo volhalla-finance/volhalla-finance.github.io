@@ -8,7 +8,7 @@ class Splash extends React.Component {
   render() {
     return <div className="splash padded">
         <div className="section-container">
-            <video autoplay="autoplay" playsinline alt="Splash" className='module'>
+            <video autoplay="autoplay" playsinline loop muted alt="Splash" className='module'>
               <source src={splash} type="video/mp4"/>
             </video>
         </div>
