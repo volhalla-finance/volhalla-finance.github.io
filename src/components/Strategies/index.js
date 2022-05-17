@@ -3,7 +3,8 @@ import divider2 from './../../divider2.svg';
 import bespoke from './asset-bespoke.jpg';
 import standard from './asset-standard.jpg';
 import ReactCardFlip from 'react-card-flip';
-import { Button, Carousel } from 'antd';
+import { Button } from 'antd';
+import { FaArrowRight } from 'react-icons/fa';
 /*
 * Strategies  section
 */
@@ -51,7 +52,7 @@ class Strategies extends React.Component {
                   <body>Find the right solution for you based on your risk apptetite</body>
                   <div className="button-container">
                     <Button className="button" type="primary" size={24}>
-                      Learn more
+                      <FaArrowRight size={20} />
                     </Button>
                   </div>
                 </div>
@@ -76,7 +77,7 @@ class Strategies extends React.Component {
                   <body>Find the right solution for you based on your risk apptetite</body>
                   <div className="button-container">
                     <Button className="button" type="primary" size={24}>
-                      Learn more
+                      <FaArrowRight size={20} />
                     </Button>
                   </div>
                 </div>

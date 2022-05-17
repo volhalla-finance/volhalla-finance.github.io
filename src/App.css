@@ -115,20 +115,35 @@ html body {
   background: white;
   display: flex;
   flex-direction: column;
-  padding-top: 54px;
+  padding-top: 20px;
 }
 .intro .section-container {
   padding-left: 90px;
 }
 .intro .cta-container {
-  margin-right: 20px;
+  margin-left: auto;
+  width: 50%;
+  display: flex;
+}
+.intro .cta-container .cta {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .intro .asset {
-  max-width: 50%;
+  width: 50%;
   margin-right: -40px;
+  display: flex;
 }
 .intro .button-container {
   margin-top: 36px;
+}
+.intro .divider {
+  padding-top: 20px;
+}
+.intro video {
+  max-height: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .strategies {
   display: flex;
@@ -194,6 +209,7 @@ html body {
 }
 .strategies .strategy-overview .strategy.back .button {
   margin: auto;
+  border-radius: 20px;
 }
 .strategies .strategy-overview .strategy h3 {
   font-size: 24px;

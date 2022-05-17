@@ -131,19 +131,34 @@ html {
   background: white;
   display: flex;
   flex-direction: column; 
-  padding-top: 54px;
+  padding-top: 20px;
   .section-container {
     padding-left: 90px;
   }
   .cta-container {
-    margin-right: 20px;
+    margin-left: auto;
+    width: 50%;
+    display:flex;
+    .cta {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
   }
   .asset {
-    max-width: 50%;
+    width: 50%;
     margin-right:-40px;
+    display: flex;
   }
   .button-container {
     margin-top: 36px;
+  }
+  .divider {
+    padding-top: 20px;
+  }
+  video {
+    max-height:450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -208,6 +223,7 @@ html {
         }
         .button {
           margin: auto;
+          border-radius: 20px;
         }
       }
 

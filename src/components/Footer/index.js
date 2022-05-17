@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './../../logo-180.png';
-import { FaDiscord } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaTwitter } from 'react-icons/fa';
 /*
 * Footer section
 */

@@ -1,6 +1,6 @@
 import React from 'react';
-import section1 from './../../section1.svg';
 import divider1 from './../../divider1.svg';
+import volatileVideo from './volatile.mp4';
 import { Button } from 'antd';
 /*
 * Volatile  section
@@ -12,15 +12,21 @@ class Volatile extends React.Component {
     return <div className="intro">
       <div className="section-container padded">
         <div className="cta-container">
-          <h1>{title}</h1>
-          <body>{subtitle}</body>
-          <div className="button-container">
-            <Button className="button" type="primary">
-              Start Earning
-            </Button>
+          <div className="cta">
+            <h1>{title}</h1>
+            <body>{subtitle}</body>
+            <div className="button-container">
+              <Button className="button" type="primary">
+                Start Earning
+              </Button>
+            </div>
           </div>
         </div>
-        <img src={section1} className="asset" />
+        <div className="asset">
+          <video autoplay="autoplay" playsinline alt="asset">
+            <source src={volatileVideo} type="video/mp4"/>
+          </video>
+        </div>
       </div>
       <img src={divider1} className="divider"></img>
     </div>;
