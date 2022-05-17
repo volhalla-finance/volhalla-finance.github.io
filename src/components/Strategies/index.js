@@ -73,8 +73,8 @@ class Strategies extends React.Component {
               <div className="strategy back" onClick={this.handleClickBespoke}>
               <div className="card-container">
                   <h3>Bespoke Strategies</h3>
-                  <body>Placeholder.</body>
-                  <body>Find the right solution for you based on your risk apptetite</body>
+                  <body>We build bespoke strategies for large and complex portfolios.</body>
+                  <body>Collaborations are welcomed. DM us on Twitter or Discord if you have specific needs for your portfolio.</body>
                   <div className="button-container">
                     <Button className="button" type="primary" size={24}>
                       <FaArrowRight size={20} />

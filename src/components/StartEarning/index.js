@@ -42,7 +42,7 @@ class StartEarning extends React.Component {
       </div>
       <div className="section-container padded">
         <div className="cta-container">
-          <h3>{title}</h3>
+          <h3>Analytics to easily assess your performance and risk</h3>
           <div className="button-container">
             <Button className="button" type="primary" size={24}>
               Open Analytics
