@@ -1,5 +1,6 @@
 import React, {createRef, useEffect} from 'react';
 import splash from './splash-video.mp4';
+import logoAnimated from './logo-animated.mp4';
 /*
  * Splash screen section
  */
@@ -19,7 +20,23 @@ export default function Splash() {
   }, []);
   return <div className="splash padded">
       <div className="section-container">
-          <video 
+        <div className="module">
+          <video
+            autoplay="autoplay"
+            playsinline loop muted 
+            alt="Splash" 
+            >
+            <source src={logoAnimated} type="video/mp4"/>
+          </video>
+          <div className="title-section"> 
+            <h1>Diversified</h1>
+            <h1>crypto yield</h1>
+            <h1>strategies</h1>
+            <h2>for all market conditions</h2>
+          </div>
+        </div>
+          
+          {/* <video 
             ref={vRef} 
             autoplay="autoplay"
             playsinline loop muted 
@@ -29,7 +46,7 @@ export default function Splash() {
             poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           >
             <source src={splash} type="video/mp4"/>
-          </video>
+          </video> */}
       </div>
   </div>;
 }

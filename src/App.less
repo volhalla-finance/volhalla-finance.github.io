@@ -120,17 +120,30 @@ html {
   background: #6457FF;
   background: linear-gradient(180deg, #6457FF 51.89%, rgba(97, 91, 255, 0.263306) 87.58%, rgba(102, 100, 255, 0) 100%);
   padding-bottom: 28px;
-  .section-container {
-    display: flex;
-    background: #4600d4;
-    border-radius: 30px;
-  }
+  display: flex;
   .module {
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 30px;
-    height: 70vh;
-    width: auto;
+    display: flex;
+    background: #4a01ce;
+    video {
+      margin-left: 5%;
+      border-radius: 30px;
+      width: 60%;
+    }
+  }
+  .title-section {
+    margin: auto auto auto -10%;
+    h1 {
+      @media screen and (min-width: 1200px) {
+        font-size: 80px;
+      }
+      font-size: 48px;
+      color: white;
+    }
+    h2 {
+      color: #fefeff;
+      text-align: left;
+    }
   }
 }
 
@@ -138,7 +151,6 @@ html {
   background: white;
   display: flex;
   flex-direction: column; 
-  padding-top: 20px;
   .section-container {
     padding-left: 90px;
   }
