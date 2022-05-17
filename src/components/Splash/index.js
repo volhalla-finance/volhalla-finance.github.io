@@ -8,7 +8,8 @@ export default function Splash() {
   const vRef = createRef();
   useEffect(() => {
     function playVideo() {
-      vRef.current.currentTime = 0.05;
+      // https://stackoverflow.com/questions/23295278/looping-html5-video-flashes-a-black-screen-on-loop
+      vRef.current.currentTime = 0.034;
       vRef.current.play();
     }
 

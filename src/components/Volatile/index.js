@@ -13,7 +13,7 @@ export default function Volatile() {
   const vRef = createRef();
   useEffect(() => {
     function playVideo() {
-      vRef.current.currentTime = 0.05;
+      vRef.current.currentTime = 0.034;
       vRef.current.play();
     }
 
