@@ -40,6 +40,7 @@ html body {
   font-weight: 200;
   width: auto;
   height: auto;
+  min-width: 960px;
 }
 .section-container {
   display: flex;
@@ -202,22 +203,24 @@ html body {
   background: white;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .intro .section-container {
   padding-left: 90px;
 }
 .intro .cta-container {
   margin-left: auto;
-  width: 50%;
+  width: 55%;
   display: flex;
+  z-index: 1;
 }
 .intro .cta-container .cta {
   margin-top: auto;
   margin-bottom: auto;
 }
 .intro .asset {
-  width: 50%;
-  margin-right: -40px;
+  width: 45%;
+  margin-left: -5%;
   display: flex;
 }
 .intro .button-container {
@@ -227,7 +230,8 @@ html body {
   padding-top: 20px;
 }
 .intro video {
-  max-height: 450px;
+  width: 100%;
+  min-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -332,7 +336,7 @@ html body {
 .strategies .asset-container img {
   margin: auto;
   height: 240px;
-  width: 200px;
+  width: 210px;
 }
 .strategies img + img {
   margin-left: 20px;
@@ -390,7 +394,8 @@ button {
   background: #24098F;
   color: white;
   padding-bottom: 34px;
-  min-height: 300px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 .team body {
   color: inherit;
