@@ -8,7 +8,7 @@
   src: url("./fonts/BrandonText-Regular.otf") format("opentype");
 }
 h1 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -27,8 +27,8 @@ h3 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 36px;
+  line-height: 50px;
   letter-spacing: -0.03em;
   color: black;
 }
@@ -231,6 +231,22 @@ html body {
   margin-left: auto;
   margin-right: auto;
 }
+.intro h1 {
+  margin-bottom: 0;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+.intro p {
+  margin-top: 20px;
+  font-family: BrandonTextRegular;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 20px;
+  line-height: 32px;
+}
 .strategies {
   display: flex;
   background: #24098F;
@@ -249,6 +265,7 @@ html body {
   display: flex;
   flex-direction: row;
   margin: 40px;
+  margin-top: 60px;
   width: 100%;
   max-width: 800px;
 }
@@ -281,7 +298,7 @@ html body {
   color: #6658FF;
   padding-top: 20px;
 }
-.strategies .strategy-overview .strategy.back body {
+.strategies .strategy-overview .strategy.back p {
   background-color: inherit;
   margin-top: 40px;
   color: #24098F;
@@ -298,6 +315,11 @@ html body {
   border-radius: 20px;
 }
 .strategies .strategy-overview .strategy h3 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
   font-size: 24px;
 }
 .strategies .strategy-overview .react-card-flip + .react-card-flip {
@@ -305,12 +327,12 @@ html body {
 }
 .strategies .asset-container {
   display: flex;
-  padding: 40px 0 20px 0;
+  padding: 70px 0 20px 0;
 }
 .strategies .asset-container img {
   margin: auto;
-  height: 300px;
-  width: 260px;
+  height: 240px;
+  width: 200px;
 }
 .strategies img + img {
   margin-left: 20px;
@@ -319,6 +341,7 @@ html body {
   background: white;
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 .start-earning .carousel {
   width: 290px;
@@ -339,9 +362,10 @@ html body {
 }
 .start-earning .divider {
   margin: 0;
+  margin-top: 60px;
 }
 .start-earning .section-container + .section-container {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 button {
   all: unset;
@@ -360,6 +384,7 @@ button {
   padding: 8px 24px;
   height: auto;
   background: linear-gradient(90deg, #2037FF 0%, #6658FF 100%);
+  font-family: BrandonText;
 }
 .team {
   background: #24098F;
@@ -376,9 +401,22 @@ button {
 }
 .team h1 {
   color: inherit;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -0.03em;
 }
 .team img {
   height: 500px;
+}
+.team p {
+  font-family: BrandonTextRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 .team .section-container {
   display: flex;
@@ -391,6 +429,9 @@ button {
   flex-direction: column;
 }
 .questions {
+  margin-bottom: 100px;
+}
+.questions .divider {
   margin-bottom: 50px;
 }
 .questions .section-container {
@@ -411,11 +452,25 @@ button {
 .questions .collapse .ant-collapse-item {
   background-color: white;
   font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.questions .collapse .ant-collapse-item p {
+  font-family: BrandonTextRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 .questions .collapse .ant-collapse-header {
   flex-direction: row-reverse;
   justify-content: space-between;
   color: #3706FA;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
 }
 .footer {
   display: flex;
@@ -462,5 +517,5 @@ button {
   margin-bottom: auto;
 }
 .footer .socials .item + .item {
-  margin-left: 20px;
+  margin-left: 50px;
 }

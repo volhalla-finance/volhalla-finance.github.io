@@ -18,24 +18,23 @@ class Questions extends React.Component {
       <div className="section-container padded">
         <h2>{title}</h2>
         <div className="collapse">
-        <Collapse bordered={false}>
-        <Panel header="How does Volhalla work?" key="1">
-          {text}
-        </Panel>
-        <Panel header="What are options?" key="2">
-          {text}
-        </Panel>
-        <Panel header="How do I know my funds are safe?" key="3">
-          {text}
-        </Panel>
-        <Panel header="Who is Volhalla partnered with?" key="4">
-          {text}
-        </Panel>
-        <Panel header="Where can I learn more?" key="5">
-          {text}
-        </Panel>
-      </Collapse>
-
+          <Collapse bordered={false}>
+            <Panel header="How does Volhalla work?" key="1">
+              {text}
+            </Panel>
+            <Panel header="What are options?" key="2">
+              {text}
+            </Panel>
+            <Panel header="How do I know my funds are safe?" key="3">
+              {text}
+            </Panel>
+            <Panel header="Who is Volhalla partnered with?" key="4">
+              {text}
+            </Panel>
+            <Panel header="Where can I learn more?" key="5">
+              {text}
+            </Panel>
+          </Collapse>
         </div>
       </div>
     </div>;

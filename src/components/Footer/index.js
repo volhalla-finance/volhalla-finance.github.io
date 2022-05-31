@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './../../logo-180.png';
+import volhalla from './../../volhalla.svg';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 /*
 * Footer section
@@ -7,8 +8,8 @@ import { FaDiscord, FaTwitter } from 'react-icons/fa';
 class Footer extends React.Component {
   render() {
     const logoContainer = <div className="logo-container">
-      <img src={logo} className="logo" alt="logo" />
-      <div className="logo-name">Volhalla</div>
+        <img src={logo} className="logo" alt="logo" />
+        <img src={volhalla} className="logo-name" alt="volhalla" />
     </div>;
     const socials = <div className="socials">
       <div className='item'><FaDiscord size={20} /></div>
@@ -24,8 +25,6 @@ class Footer extends React.Component {
       <div className='row'>
         <span className='copyright'>&#169; 2022 Volhalla</span>
       </div>
-
-
     </div>;
   }
 }
