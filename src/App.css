@@ -150,6 +150,7 @@ html body {
   border-radius: 30px;
   width: 60%;
   clip-path: inset(5px 5px);
+  min-height: 780px;
 }
 .splash .title-section {
   color: rgba(255, 255, 255, 0.5);

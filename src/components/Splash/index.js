@@ -41,20 +41,7 @@ export default function Splash() {
               <h2>for all market conditions</h2>
             </div>
           </div>
-         
         </div>
-          
-          {/* <video 
-            ref={vRef} 
-            autoplay="autoplay"
-            playsinline loop muted 
-            alt="Splash" 
-            className='module' 
-            id="splash-video"
-            poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          >
-            <source src={splash} type="video/mp4"/>
-          </video> */}
       </div>
   </div>;
 }
