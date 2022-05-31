@@ -87,6 +87,9 @@ html {
   display: flex;
   flex-direction: row;
   max-height: 74px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
   .right-links {
     margin-left:auto;
@@ -94,6 +97,12 @@ html {
     flex-direction: row;
     margin-top:auto;
     margin-bottom: auto;
+    font-family: BrandonText;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
     .item {
       margin-left: 16px;
       justify-content: center;
@@ -109,15 +118,32 @@ html {
     }
   }
   .launch {
-    background: #24098F;
-    box-shadow: 2px 4px 10px rgba(36, 9, 143, 0.4);
-    border-radius: 2px;
+    background: #FFFFFF;
+    box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.25), 2px 2px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    a {
+      /* Gradient / Cobalt Purple */
+
+      background: linear-gradient(90deg, #2037FF 0%, #6658FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
   }
 
 }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 
 .splash {
-  background: #6457FF;
   background: linear-gradient(180deg, #6457FF 51.89%, rgba(97, 91, 255, 0.263306) 87.58%, rgba(102, 100, 255, 0) 100%);
   padding-bottom: 28px;
   display: flex;
@@ -125,24 +151,58 @@ html {
     border-radius: 30px;
     display: flex;
     background: #4a01ce;
+    box-shadow: 0px -4px 15px rgba(58, 0, 202, 0.5), 2px 4px 25px rgba(58, 0, 202, 0.5);
     video {
       margin-left: 5%;
+      margin-bottom: 20px;
       border-radius: 30px;
       width: 60%;
+      clip-path: inset(5px 5px);
     }
   }
   .title-section {
-    margin: auto auto auto -10%;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 16%;
+    margin-left: -12%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.02em;
     h1 {
       @media screen and (min-width: 1200px) {
-        font-size: 80px;
+        font-size: 70px;
+        line-height: 50px;;
       }
+      line-height: 40px;
       font-size: 48px;
       color: white;
     }
+
     h2 {
-      color: #fefeff;
+      font-family: 'Work Sans';
+      color: #46C6E6;
       text-align: left;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 76px;
+      font-size: 28px;
+      @media screen and (min-width: 1200px) {
+        font-size: 36px;
+      }
+      min-width: 400px;
+      
+    }
+    #first-layer, #second-layer{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    #second-layer {
+      color: rgba(255, 255, 255, 0.5);
+      filter: blur(10px);
+      opacity: 0.5;
     }
   }
 }
@@ -299,6 +359,9 @@ html {
   }
 }
 
+button {
+  all: unset;
+}
 
 .button-container {
   display: flex;

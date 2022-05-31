@@ -15,8 +15,8 @@ class StartEarning extends React.Component {
     const contentStyle = {
       height: '300px',
       background: '#FFFFFF',
-      'box-shadow': 'inset 2px -2px 2px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(0, 0, 0, 0.1)',
-      'border-radius': '10px',
+      boxShadow: 'inset 2px -2px 2px rgba(0, 0, 0, 0.1), inset -2px 2px 3px rgba(0, 0, 0, 0.1)',
+      borderRadius: '10px',
     };
     return <div className="start-earning">
       <div className='section-container padded'>

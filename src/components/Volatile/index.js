@@ -27,7 +27,7 @@ export default function Volatile() {
         <div className="cta">
           <h1>Crypto markets are volatile.</h1>
           <h1> Use that to your advantage with Volhalla</h1>
-          <body>{subtitle}</body>
+          <p>{subtitle}</p>
           <div className="button-container">
             <Button className="button" type="primary">
               Start Earning
@@ -38,9 +38,10 @@ export default function Volatile() {
       <div className="asset">
         <video 
           ref={vRef} 
-          autoplay="autoplay" 
+          autoPlay="autoplay" 
           id="volatile" 
-          loop muted playsinline
+          loop muted 
+          playsInline
           alt="asset"
           poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         >

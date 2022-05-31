@@ -1,23 +1,26 @@
 import React from 'react';
 import logo from './../../logo-180.png';
+import volhalla from './../../volhalla.svg';
 /*
  * Navbar for the home page
  */
 class NavBar extends React.Component {
   render() {
     const logoContainer = <div className="logo-container">
-      <img src={logo} className="logo" alt="logo" />
-      <div className="logo-name">Volhalla</div>
+      <div>
+        <img src={logo} className="logo" alt="logo" />
+        <img src={volhalla} className="logo-name" alt="volhalla" />
+      </div>
     </div>;
     const navLinks = <div className="right-links">
       <div className="item"><a href="/" >Docs</a></div>
       <div className="item"><a href="/" >Community</a></div>
-      <div className="item launch"><a href="/" >Launch App</a></div>
+      <button className="item launch"><a href="/" >Start Earning</a></button>
     </div>
-    return <div className="nav padded">
+    return <nav className="nav padded sticky">
       {logoContainer}
       {navLinks}
-    </div>;
+    </nav>;
   }
 }
 

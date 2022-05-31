@@ -17,11 +17,11 @@ class Team extends React.Component {
         <div>
           <img src={viking}/>
         </div>
-        <div class="container"> 
+        <div className="container"> 
           <h1>{title}</h1>
-          <body>{subtitle}</body>
+          <p>{subtitle}</p>
           <br/>
-          <body>{subtitle2}</body>
+          <p>{subtitle2}</p>
           <div className="button-container">
             <Button className="button" type="primary" size={24}>
               Contact Us

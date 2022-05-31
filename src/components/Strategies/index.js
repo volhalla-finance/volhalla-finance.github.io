@@ -48,8 +48,8 @@ class Strategies extends React.Component {
               <div className="strategy back" onClick={this.handleClickCore}>
                 <div className="card-container">
                   <h3>Core Strategies</h3>
-                  <body>Earn up to 60% APY on BTC, ETH, SOL, USDC, and other tokens.</body>
-                  <body>Find the right solution for you based on your risk apptetite</body>
+                  <p>Earn up to 60% APY on BTC, ETH, SOL, USDC, and other tokens.</p>
+                  <p>Find the right solution for you based on your risk apptetite</p>
                   <div className="button-container">
                     <Button className="button" type="primary" size={24}>
                       <FaArrowRight size={20} />
@@ -73,8 +73,8 @@ class Strategies extends React.Component {
               <div className="strategy back" onClick={this.handleClickBespoke}>
               <div className="card-container">
                   <h3>Bespoke Strategies</h3>
-                  <body>We build bespoke strategies for large and complex portfolios.</body>
-                  <body>Collaborations are welcomed. DM us on Twitter or Discord if you have specific needs for your portfolio.</body>
+                  <p>We build bespoke strategies for large and complex portfolios.</p>
+                  <p>Collaborations are welcomed. DM us on Twitter or Discord if you have specific needs for your portfolio.</p>
                   <div className="button-container">
                     <Button className="button" type="primary" size={24}>
                       <FaArrowRight size={20} />
