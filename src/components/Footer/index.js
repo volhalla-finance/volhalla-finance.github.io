@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './../../logo-180.png';
-import volhalla from './../../volhalla.svg';
+import logo from './../NavBar/nav-logo.svg';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 /*
 * Footer section
@@ -9,7 +8,6 @@ class Footer extends React.Component {
   render() {
     const logoContainer = <div className="logo-container">
         <img src={logo} className="logo" alt="logo" />
-        <img src={volhalla} className="logo-name" alt="volhalla" />
     </div>;
     const socials = <div className="socials">
       <div className='item'><FaDiscord size={20} /></div>

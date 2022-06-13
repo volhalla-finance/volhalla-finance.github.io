@@ -18,30 +18,43 @@ export default function Splash() {
     }
   }, []);
   return <div className="splash padded">
-      <div className="section-container">
-        <div className="module">
+    <div className="section-container">
+      <div className="background">
+        <div className="video-container">
           <video
-            autoPlay="autoplay"
-            playsInline loop muted 
-            alt="Splash" 
-          >
+              autoPlay="autoplay"
+              playsInline loop muted 
+              alt="Splash" 
+            >
             <source src={logoAnimated} type="video/mp4"/>
           </video>
-          <div className="title-section" >
-            <div id="first-layer"  className="noselect"> 
-              <h1>Diversified</h1>
-              <h1>crypto yield</h1>
-              <h1>strategies</h1>
-              <h2>for all market conditions</h2>
-            </div>
-            <div id="second-layer" className="noselect"> 
-              <h1>Diversified</h1>
-              <h1>crypto yield</h1>
-              <h1>strategies</h1>
-              <h2>for all market conditions</h2>
-            </div>
+        </div>
+ 
+        <div className="title-section" >
+          {/* <div className="noselect"> 
+            <h1>Diversified</h1>
+            <h1>crypto yield</h1>
+            <h1>strategies</h1>
+            <h2>for all market conditions</h2>
+          </div> */}
+          <div id="first-layer" className="noselect" > 
+            <h1>Diversified</h1>
+            <h1>crypto yield</h1>
+            <h1>strategies</h1>
+            <h2>for all market conditions</h2>
+          </div>
+          <div id="second-layer" className="noselect"> 
+            <h1>Diversified</h1>
+            <h1>crypto yield</h1>
+            <h1>strategies</h1>
+            <h2>for all market conditions</h2>
           </div>
         </div>
       </div>
+    </div>
+    {/* <div className="module">
+        
+        
+      </div> */}
   </div>;
 }

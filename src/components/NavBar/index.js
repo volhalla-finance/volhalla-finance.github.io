@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './../../logo-180.png';
-import volhalla from './../../volhalla.svg';
+import logo from './nav-logo.svg';
+
 /*
  * Navbar for the home page
  */
@@ -9,7 +9,6 @@ class NavBar extends React.Component {
     const logoContainer = <div className="logo-container">
       <div>
         <img src={logo} className="logo" alt="logo" />
-        <img src={volhalla} className="logo-name" alt="volhalla" />
       </div>
     </div>;
     const navLinks = <div className="right-links">
