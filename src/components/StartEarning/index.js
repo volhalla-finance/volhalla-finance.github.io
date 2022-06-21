@@ -11,7 +11,7 @@ import { Button, Carousel } from 'antd';
 */
 class StartEarning extends React.Component {
   render() {
-    let title = "Earn sustainable yield in every market with strategies right for you";
+    let title = "Earn sustainable yield in every market with strategies right for you.";
     const contentStyle = {
       height: '300px',
       background: '#FFFFFF',
@@ -42,7 +42,7 @@ class StartEarning extends React.Component {
       </div>
       <div className="section-container padded">
         <div className="cta-container">
-          <h3>Analytics to easily assess your performance and risk</h3>
+          <h3>Analytics to easily assess your performance and risk.</h3>
           <div className="button-container">
             <Button className="button" type="primary" size={24}>
               Open Analytics

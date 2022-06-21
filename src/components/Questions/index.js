@@ -8,31 +8,24 @@ const { Panel } = Collapse;
 class Questions extends React.Component {
   render() {
     let title = "More Questions?";
-    const text = (
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    );
     return <div className="questions">
       <img src={dividerTop} className="divider"></img>
       <div className="section-container padded">
         <h2>{title}</h2>
         <div className="collapse">
           <Collapse bordered={false}>
-            <Panel header="How does Volhalla work?" key="1">
-              {text}
+            <Panel header="What does Volhalla do?" key="1">
+              <p>Volhalla’s mission is to make sophisticated financial strategies in crypto more accessible. To achieve our mission, we provide smart contract driven crypto strategies that empower anyone to build sustainable investment portfolios. The strategies that we enable have historically only been available to large institutional investors who have access to sophisticated derivatives, hedging techniques, and advanced yield generation strategies.</p> 
+              <p>In our first series of strategies, we allow users to generate sustainable yield on their crypto holdings. A core pillar of institutional portfolios is the ability to earn stable recurring income in all market conditions. Volhalla offers the same tools for sustainable income generation to all crypto investors through options strategies such as covered calls or our Optimized Strangle Yield (OSY).</p>
             </Panel>
-            <Panel header="What are options?" key="2">
-              {text}
+            <Panel header="What makes Volhalla different from other defi option projects?" key="2">
+              <p>Our team could not find the trading strategies that we wanted on other defi options platforms, so we decided to build them ourselves. Given the many ways options can be structured and traded, we have constructed new strategies to maximize users' risk-reward. We want to introduce these in a transparent and easily understandable way so that every user understands the risk.</p>
             </Panel>
-            <Panel header="How do I know my funds are safe?" key="3">
-              {text}
+            <Panel header="What risks are there from Volhalla?" key="3">
+              <p>Volhalla’s goal is to explain risk in a transparent way. There will always be risks from investing in a defi protocol, including market risk and smart contract risk. Volhalla partners with leading defi protocols such as Zeta Markets as well as institutional market markets to safeguard your funds. More on risks <a>here</a>.</p>
             </Panel>
-            <Panel header="Who is Volhalla partnered with?" key="4">
-              {text}
-            </Panel>
-            <Panel header="Where can I learn more?" key="5">
-              {text}
+            <Panel header="Where can I learn more?" key="4">
+              <p>Please see <a>our docs</a> for more information. We're also available to answer your questions on our <a>Discord</a>.</p>
             </Panel>
           </Collapse>
         </div>

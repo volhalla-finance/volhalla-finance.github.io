@@ -7,7 +7,7 @@ import { Button } from 'antd';
 */
 export default function Volatile() {
 
-  let subtitle = "Volhalla has strategies for everyone whether you are generating yield through options or diversifying your crypto portfolio";
+  let subtitle = "Volhalla has strategies for everyone whether you are generating yield through options or diversifying your crypto portfolio.";
 
   const vRef = createRef();
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function Volatile() {
       <div className="cta-container">
         <div className="cta">
           <h1>Crypto markets are volatile.</h1>
-          <h1> Use that to your advantage with Volhalla</h1>
+          <h1> Use that to your advantage with Volhalla.</h1>
           <p>{subtitle}</p>
           <div className="button-container">
             <Button className="button" type="primary">
