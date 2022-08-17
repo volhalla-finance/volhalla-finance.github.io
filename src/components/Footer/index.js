@@ -11,13 +11,13 @@ class Footer extends React.Component {
     </div>;
     const socials = <div className="socials">
       <div className='item'><FaDiscord size={20} /></div>
-      <div className='item'><FaTwitter size={20} /></div>
+      <a className='item' href="https://twitter.com/Volhalla_" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
     </div>
     return <div className="footer">
       <div className="row">      
         {logoContainer}
-        <a className="item">Docs</a>
-        <a className="item">App</a>
+        {/* <a className="item">Docs</a>
+        <a className="item">App</a> */}
         {socials}
       </div>
       <div className='row'>

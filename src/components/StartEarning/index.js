@@ -33,21 +33,21 @@ class StartEarning extends React.Component {
         </Carousel>
         <div className="cta-container">
           <h3>{title}</h3>
-          <div className="button-container">
+          {/* <div className="button-container">
             <Button className="button" type="primary" size={24}>
               Start Earning
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="section-container padded">
         <div className="cta-container">
           <h3>Analytics to easily assess your performance and risk.</h3>
-          <div className="button-container">
+          {/* <div className="button-container">
             <Button className="button" type="primary" size={24}>
               Open Analytics
             </Button>
-          </div>
+          </div> */}
         </div>
         <img src={section3_2} className="asset2"></img>
       </div>

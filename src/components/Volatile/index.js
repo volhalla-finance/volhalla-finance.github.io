@@ -28,11 +28,11 @@ export default function Volatile() {
           <h1>Crypto markets are volatile.</h1>
           <h1> Use that to your advantage with Volhalla.</h1>
           <p>{subtitle}</p>
-          <div className="button-container">
+          {/* <div className="button-container">
             <Button className="button" type="primary">
               Start Earning
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="asset">

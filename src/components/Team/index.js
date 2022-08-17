@@ -22,11 +22,11 @@ class Team extends React.Component {
           <p>{subtitle}</p>
           <br/>
           <p>{subtitle2}</p>
-          <div className="button-container">
+          <a className="button-container" href="mailto:info@volhalla.finance">
             <Button className="button" type="primary" size={24}>
               Contact Us
             </Button>
-          </div>
+          </a>
         </div>
        
       </div>

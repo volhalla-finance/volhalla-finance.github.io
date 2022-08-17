@@ -556,3 +556,18 @@ button {
 .footer .socials .item + .item {
   margin-left: 50px;
 }
+.ant-modal-content {
+  border-radius: 12px;
+}
+.ant-modal-header {
+  padding-top: 24px;
+  border-radius: 12px 12px 0 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.ant-modal-title {
+  font-size: 18px;
+}
+.ant-modal-body {
+  font-size: 16px;
+}
